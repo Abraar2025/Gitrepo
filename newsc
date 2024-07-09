@@ -1,0 +1,24 @@
+def add_numbers(a, b):
+    return a + b
+
+def is_even(number):
+    return number % 2 == 0
+
+def print_numbers(limit):
+    for i in range(1, limit + 1):
+        print(i)
+
+# Test the add_numbers function
+result = add_numbers(5, 3)
+print(f"5 + 3 = {result}")
+
+# Test the is_even function
+number = 4
+if is_even(number):
+    print(f"{number} is even")
+else:
+    print(f"{number} is odd")
+
+# Test the print_numbers function
+print("Numbers from 1 to 5:")
+print_numbers(5)
